@@ -1,1 +1,6 @@
 database/
+
+# Ignore runtime socket and pid files that may be created by local services
+*.sock
+*.pid
+
